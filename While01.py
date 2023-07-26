@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    m=len(s)
+    i=0
+    a=0
+    while i<m:
+        if s[i].isdigit()==1:
+            a+=1
+        i+=1
+    return a
+print(main("pytho1243n"))
