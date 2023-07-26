@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+   
+    s=int(s)
+    i=0
+    while 0<s:
+        i += (s%10)
+        s//=10
+    return i
+print(main("1843"))
